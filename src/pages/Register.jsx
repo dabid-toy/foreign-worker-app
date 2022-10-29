@@ -80,7 +80,7 @@ const Register = () => {
 					<input className="normal" required type="password" placeholder="password" />
 					<div className="flex gap-10 pb-3">
 						<label htmlFor="individual">
-							<input type='radio' id="individual" name='userType' onChange={handleChange} value='indiviual' checked />
+							<input type='radio' id="individual" name='userType' onChange={handleChange} value='indiviual' defaultChecked />
 							Individual
 						</label>
 						<label htmlFor="company">
